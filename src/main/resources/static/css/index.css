@@ -1,0 +1,63 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 12, 2022, 9:48:50 PM
+    Author     : Equipo
+box-sizing: difine the size of our container(cajitas) based on the size of the border, padding and content
+content-box: takes into account, content, border and padding to calcule the summary box
+border-box: modify values of the content, to match our width and height
+
+position allow us to move our box
+
+static 
+relative 
+adsolute 
+fixed
+sticky
+
+*/
+
+.block{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 20px solid;
+    box-sizing: border-box;
+    
+}
+
+
+.static{
+    position: static;
+    border:3px solid green;
+    top: 400px;
+    left: 50px;
+}
+
+.relative{
+    position: relative;
+    border:3px solid green;
+    top: 400px;
+    left: 50px;
+    width: 500px;
+    height: 300px;
+}
+
+.fixed{
+    position: fixed;
+    border:3px solid green;
+    top: 150px;
+    left: 50px;
+}
+
+.absolute{
+    position: absolute;
+    border:3px solid green;
+    top: 150px;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+}
