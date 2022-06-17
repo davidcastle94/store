@@ -7,7 +7,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Author     : Equipo
 */
 
-
+/*significa que le aplica estas reglas a todo*/
 *{
     margin: 0;
     padding:0;
@@ -24,4 +24,57 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
+}
+
+
+.nav{
+    height: 15vh;
+    width: 100%;
+    margin:auto;
+    display:flex;      /*como se compartan esos elementos   */
+    align-items: center;
+}
+
+
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+/*si tenemos ya una tiquete entonces podemos hacer los cambios a ella de la siguiente manera*/
+nav{
+    flex:1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display:inline-block;/*para que el contenido se despliague*/
+    list-style: none; /*para que no sea vea los puntos de la lista*/
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:darkorange; 
+}
+
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom:15px;
+    color: darksalmon;
+}
+
+
+.content p{
+    font-size: 20px;
+    color:blueviolet;
+}
+
+.feature-img{
+    height: 50%;
+    position: absolute;
+    bottom:50px;
+    right: 160px;
 }
